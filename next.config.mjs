@@ -3,12 +3,14 @@
 
 //export default nextConfig;
 
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   eslint: {
-    ignoreDuringBuilds: true, // ✅ skip ESLint during build
+    ignoreDuringBuilds: true,
   },
 };
 
-module.exports = nextConfig;
+export default nextConfig;
+
 
